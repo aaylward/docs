@@ -24,7 +24,7 @@ Please check the alternatives explained in :ref:`generator packages <dyn_generat
 Is my compiler, version, architecture, or setting supported?
 ---------------------------------------------------------------
 Yes, conan is very general, and does not restrict any configuration at all.
-It might happen sometimes, when you specifcy a setting not present in the defaults
+It might happen sometimes, when you specify a setting not present in the defaults
 that you receive a message like this:
 
 .. code-block:: bash
@@ -34,9 +34,9 @@ that you receive a message like this:
 
 
 This doesn't mean that such architecture is not supported by conan, it is just that it is not present in the actual
-defaults settings. You can find in your user home folder ``~/.conan/settings.yml`` a settings file that you
+default settings. You can find in your user home folder ``~/.conan/settings.yml`` a settings file that you
 can modify, edit, add any setting or any value, with any nesting if necessary. As long as your team or users have
-the same settings (you can share with them the file), everything will work. The ``settings.yml`` file is just a 
+the same settings (you can share the file with them), everything will work. The ``settings.yml`` file is just a 
 mechanism so users agree on a common spelling for typically settings. Also, if you think that some settings would
 be useful for many other conan users, please submit it as an issue or a pull request, so it is included in future
 releases.
